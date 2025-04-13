@@ -6,8 +6,8 @@ int main() {
     return -1;
   }
 
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
   GLFWwindow* window = glfwCreateWindow(1280, 720, "Hello, World", NULL, NULL);
   if (!window) {
     glfwTerminate();
