@@ -9,7 +9,6 @@ include_directories(thirdparty/glfw/include)
 add_subdirectory(thirdparty/glm)
 # include_directories(thirdparty/glm/include)
 
-set(GLAD_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glad/include)
 set(GLAD ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glad/src/glad.c ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/glad/include/glad/glad.h)
 
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
